@@ -1,5 +1,10 @@
 .colorblack{color: black}
+.colorred{color:red}
 .fontweightbold{font-weight: bold}
 .backgrounddarkgray{background-color: darkgray}
 .backgroundlightgray{background-color: lightgray}
-.textaligncenter{text-align: center;}
+.backgroundblack{background-color: rgb(31,31,31);}
+.textaligncenter{text-align: center}
+.nobullets {list-style-type: none;padding-left: 0;}
+
+

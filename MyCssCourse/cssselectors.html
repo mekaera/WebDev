@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html class="fontweightbold" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Selectors</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="./cssselector.css">
+
+</head>
+
+<body>
+    <div class="textaligncenter backgroundlightgray">
+        <h1 class="backgrounddarkgray">CSS Selector Types</h1>
+        <ul class="nobullets ">
+            <li>
+            <li>
+                <h3>Universal Selector</h3>
+                <p>Apply to all type of all HTML element. </p>
+            </li>
+            <h3> Element selector </h3>
+            <p>It selects particular HTML element and apply all of them.</p>
+            </li>
+            <li>
+                <h3>Class Selector</h3>
+                <p>Its a attribute can be added to all of HTML elements to apply them.</p>
+            </li>
+
+            <li>
+                <h3>Attribute Selector</h3>
+                <p>If element has or has not chosen attribute apply all of HTML element.</p>
+            </li>
+
+            <li>
+                <h3>ID Selector</h3>
+                <p>Its a attribute can be added to only one Html element to apply it.</p>
+            </li>
+            <br>
+        </ul>
+    </div>
+
+    <div class="backgroundlightgray">
+        <div class="backgrounddarkgray">
+            <hr>
+            <h1>cssselectors.html</h1>
+            <hr>
+        </div>
+
+        <p>
+            -&lt;html&gt; <br> <br>
+            --&lt;head&gt; <br>
+            ----&lt;link rel="stylesheet" href="style.css"&gt; <br>
+            --&lt;/head&gt; <br> <br>
+            -- &lt;body&gt; <br>
+
+            ----&lt;h2&gt;This is a heading and it has green background&lt;/h2&gt; <br>
+            ----&lt;h2 class"red-text"&gt;This is a heading and it has red background&lt;/h2&gt; <br>
+            ----&lt;h2 draggable="true" class="red-text"&gt; <br>
+            ----This is a heading and it has purple background&lt;/h2&gt; <br>
+            ----&lt;h2 id="blue-text" draggable="true" class="red-text"&gt; <br> 
+            ----This is a heading and it has blue background&lt;/h2&gt; <br>
+            --&lt;/body&gt; <br><br>
+            -&lt;/html&gt;
+
+
+        </p>
+    </div>
+
+    <div class="backgroundlightgray">
+        <div class="backgrounddarkgray">
+            <hr>
+            <h1>systle.css</h1>
+            <hr>
+        </div>
+
+        <p>
+            #blue-text{background-color:blue;} <br>
+            h2[draggable]{background-color: purple;} <br>
+            .red-text{background-color:red;} <br>
+            h2{background-color: red;} <br>
+            h2{background-color: blue;} <br>
+            h2 {background-color: green;} <br>
+
+        </p>
+    </div>
+    <div class="backgroundlightgray">
+        <hr>
+        <h1>Output</h1>
+
+        <div class="backgrounddarkgray">
+            <hr>
+            <h2>This is a heading and it is have green background</h2>
+            <h2 class="red-text">This is a heading and it is have red background</h2>
+            <h2 draggable="true" class="red-text">This is a heading and it is have purple background</h2>
+            <h2 id="blue-text" draggable="true" class="red-text">This is a heading and it is have blue background</h2>
+            
+            <hr>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
