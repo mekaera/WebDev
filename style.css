@@ -5,6 +5,6 @@
 .backgroundlightgray{background-color: lightgray}
 .backgroundblack{background-color: rgb(31,31,31);}
 .textaligncenter{text-align: center}
-.nobullets {list-style-type: none;padding-left: 0;}
-
+.nobullets{list-style-type: none;padding-left: 0;}
+.bullerorder{display: inline-block;text-align: left;}
 
